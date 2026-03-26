@@ -1,0 +1,19 @@
+.search-form-card {
+  margin-bottom: 1.25rem;
+}
+
+.search-form-card .card-body {
+  padding: 1.25rem;
+}
+
+.swap-col {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .swap-col {
+    justify-content: flex-start;
+  }
+}

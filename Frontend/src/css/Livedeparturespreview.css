@@ -1,0 +1,51 @@
+.departure-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.85rem 1.25rem;
+  border-bottom: 1px solid var(--bd);
+  transition: var(--tr);
+  gap: 1rem;
+}
+
+.departure-row:last-child { border-bottom: none; }
+.departure-row:hover { background: var(--bgh); }
+
+.departure-icon {
+  font-size: 1.3rem;
+  min-width: 26px;
+  text-align: center;
+}
+
+.departure-name {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 0.88rem;
+}
+
+.departure-direction {
+  font-size: 0.75rem;
+  color: var(--t2);
+  margin-top: 1px;
+}
+
+.departure-time {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-align: right;
+}
+
+.departure-time.delayed {
+  text-decoration: line-through;
+  color: var(--t3);
+  font-size: 0.78rem;
+}
+
+.departure-time-actual {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--err);
+  text-align: right;
+}

@@ -1,0 +1,61 @@
+.journey-card {
+  margin-bottom: 0.85rem;
+  animation: cardIn 0.3s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+@keyframes cardIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.journey-card .card-header {
+  padding: 0.9rem 1.25rem !important;
+  
+}
+
+.journey-route {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.journey-times {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--t2);
+  margin-top: 2px;
+}
+
+.journey-leg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 1.25rem;
+  border-bottom: 1px solid var(--bd);
+  gap: 0.85rem;
+  transition: var(--tr);
+}
+
+.journey-leg:last-child { border-bottom: none; }
+.journey-leg:hover { background: var(--bgh); }
+
+.leg-icon { font-size: 1.2rem; min-width: 24px; text-align: center; }
+
+.leg-name {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 0.84rem;
+}
+
+.leg-stops {
+  font-size: 0.74rem;
+  color: var(--t2);
+  margin-top: 1px;
+}
+
+.leg-times {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.8rem;
+  text-align: right;
+  white-space: nowrap;
+}

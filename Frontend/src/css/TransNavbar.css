@@ -1,0 +1,55 @@
+.navbar-custom {
+  background: rgba(0, 0, 0, 0.88) !important;
+  border-bottom: 1px solid var(--bd);
+  margin-bottom: 0 !important;
+}
+
+.brand-logo {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none !important;
+}
+
+.brand-icon {
+  font-size: 1.2rem;
+  display: inline-block;
+  animation: brandFloat 4s ease-in-out infinite;
+}
+
+
+.brand-text {
+  background: linear-gradient(120deg, var(--ac) 0%, var(--ac2) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.nav-link {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: var(--t2) !important;
+  padding: 0.4rem 0.85rem !important;
+  border-radius: var(--r-sm);
+  transition: var(--tr);
+}
+
+.nav-link:hover {
+  color: var(--t1) !important;
+  background: var(--bgh);
+}
+
+.nav-link.active {
+  color: var(--ac) !important;
+  background: var(--ac-subtle);
+}
+
+.main-nav{
+  gap: 10px;
+}

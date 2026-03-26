@@ -1,0 +1,24 @@
+.footer-custom {
+  background: var(--bgr) !important;
+  border-top: 1px solid var(--bd) !important;
+  backdrop-filter: blur(12px);
+  padding: 0.7rem 0;
+}
+
+.footer-custom small {
+  color: var(--t3);
+  font-size: 0.72rem;
+  font-family: 'DM Mono', monospace;
+  letter-spacing: 0.02em;
+}
+
+.footer-custom a {
+  color: var(--ac);
+  text-decoration: none;
+  font-weight: 500;
+  transition: var(--tr);
+}
+
+.footer-custom a:hover {
+  color: var(--t1);
+}

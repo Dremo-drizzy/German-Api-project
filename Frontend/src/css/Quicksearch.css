@@ -1,0 +1,16 @@
+.quick-search-card {
+  margin-bottom: 1.25rem;
+}
+
+.quick-search-card .card-header h5 {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.swap-btn {
+  margin-bottom: 2px;
+}
+
+@media (max-width: 576px) {
+  .swap-btn { width: 100%; }
+}
